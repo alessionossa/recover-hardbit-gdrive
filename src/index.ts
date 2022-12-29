@@ -74,7 +74,7 @@ async function recoverFiles() {
             });
 
             const files = response.data.files;
-            if (typeof files !== "undefined") {
+            if (files !== undefined) {
                 console.log(`Found ${files.length} file(s) with revisions newer than ${cutoffDate.toISOString()}`);
             } else {
                 console.warn('Empty file list');
