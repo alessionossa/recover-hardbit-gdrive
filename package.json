@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "googleapis": "^110.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "typescript": "^4.9.4"
+  }
+}
